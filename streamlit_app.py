@@ -164,7 +164,7 @@ def main():
             cids = get_cids_from_cas(cas_input)
 
             if not cids:
-                st.error(f"No PubChem compound found for CAS **{cas_input**}.")
+                st.error(f"No PubChem compound found for CAS **{cas_input}**.")
                 st.info(
                     "Possible reasons: the CAS is not indexed in PubChem, "
                     "the number is incorrect, or it refers to a substance "
